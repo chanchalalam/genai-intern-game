@@ -27,13 +27,6 @@ A simple game where you try to find words that "beat" the current word, with AI 
 - Simple but polished frontend
 - Multiple host personas
 
-## Architecture
-
-- **Backend**: FastAPI (Python)
-- **Database**: SQLite (with Redis for caching)
-- **Frontend**: Vanilla JS with minimal CSS
-- **AI**: OpenAI GPT-3.5-turbo
-How to Run the Application
 
 Make sure you have Docker installed on your Mac
 Create a .env file with your OpenAI API key:
